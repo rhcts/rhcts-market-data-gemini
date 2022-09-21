@@ -1,0 +1,12 @@
+quarkus:
+  banner:
+    enabled: false
+  infinispan-client:
+    server-list: localhost:11222
+    auth-username: local_test
+    auth-password: password
+    client-intelligence: BASIC
+
+
+quickfixj:
+  session-settings-file: /Users/stephennimmo/gemini/gemini-local-market-data.settings
